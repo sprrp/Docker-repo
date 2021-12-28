@@ -8,3 +8,13 @@ https://github.com/sprrp/Docker-repo/blob/master/java-api-docker/docker/Dockerfi
 To build an Docker Image, there is a need of an base image. On top of that image, we need to place an package and specify env such as working dir, java version and other dependencies. 
 
 This is a restfull api. To test its behaviour, there is a need to get and put the objects.
+
+# this servie accpet json payload
+
+# it has a filed echo whose value can be configured via cli
+
+# nginx deployment to K8s
+
+https://github.com/sprrp/Docker-repo/tree/master/java-api-docker/nginx
+
+
