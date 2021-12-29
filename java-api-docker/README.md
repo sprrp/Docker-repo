@@ -9,9 +9,9 @@ To build an Docker Image, there is a need of an base image. On top of that image
 
 This is a restfull api. To test its behaviour, there is a need to get and put the objects.
 
-# this servie accpet json payload
+# This servie accpet json payload
 
-# it has a filed echo whose value can be configured via cli
+# It has a filed echo whose value can be configured via cli
 
 # nginx deployment to K8s
 
