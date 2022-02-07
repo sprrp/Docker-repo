@@ -56,6 +56,8 @@ Suppose you have 3 containers running and out of these, you wish to access one o
 The following command lets us access a running container:
 
 `docker exec -it <container id> bash`
+or 
+`docker exec -it <container id> /bin/bash`
 
 The exec command lets you get inside a container and work with it.
 
@@ -130,4 +132,13 @@ Its always better to stop the container and then remove it using the remove comm
 
 `docker stop <coontainer_id>`
 `docker rm -f <container_id>`
+
+Tag docker image:
+```
+docker tag imagename   tagname
+```
+or 
+```
+docker tag imagename:version   tagname:version
+```
 
